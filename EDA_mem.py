@@ -110,7 +110,7 @@ algo = algorithm.moead(gen=100)
 pop = population(prob, n_individus)
 pop1 = population(pop)
 
-for xt in range(1, 200, 1):
+for xt in range(1, dt.Taut, 1):
     dt.tau = xt
     t = float(1) / float(dt.nt)
     t = t * floor(float(dt.tau) / float(dt.taut))
