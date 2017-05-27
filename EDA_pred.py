@@ -127,7 +127,7 @@ for xt in range(1, 201, 1):
 
 """
 
-for xt in range(1, 201, 1):
+for xt in range(1, dt.Taut, 1):
     print xt
     dt.tau = xt
     t = float(1) / float(dt.nt)
