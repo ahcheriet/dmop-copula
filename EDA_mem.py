@@ -119,7 +119,7 @@ for xt in range(1, dt.Taut, 1):
         sum_igd = sum_igd + quality_eda
         DataListX_eda.append(xt)
         DataListY_eda.append(quality_eda)
-        plot_file(xt,1)        
+        plot_file(xt, 1)
         plot_front(pop, 1)
         plt.show()
         plt.savefig('./fig/PF_at_' + str(xt) + '.png')
